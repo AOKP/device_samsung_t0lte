@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf \
 	$(LOCAL_PATH)/configs/tinyucm.conf:system/etc/tinyucm.conf \
+	$(LOCAL_PATH)/configs/Volume.db:system/etc/Volume.db \
+	$(LOCAL_PATH)/configs/audio_effects.conf:system/etc/audio_effects.conf \
 	$(LOCAL_PATH)/configs/default_gain.conf:system/etc/default_gain.conf
 
 # Gps
