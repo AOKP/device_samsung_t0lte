@@ -43,12 +43,23 @@
        /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
   <array name="cpu.speeds">
       <value>200000</value>
+      <value>300000</value>
+      <value>400000</value>
       <value>500000</value>
+      <value>600000</value>
+      <value>700000</value>
       <value>800000</value>
+      <value>900000</value>
       <value>1000000</value>
+      <value>1100000</value>
       <value>1200000</value>
+      <value>1300000</value>
       <value>1400000</value>
+      <value>1500000</value>
       <value>1600000</value>
+      <value>1700000</value>
+      <value>1800000</value>
+      <value>1900000</value>
   </array>
   <!-- Power consumption when CPU is idle -->
   <item name="cpu.idle">1.4</item>
@@ -65,5 +76,5 @@
       <value>230.0</value>
   </array>
   <!-- This is the battery capacity in mAh -->
-  <item name="battery.capacity">1650</item>
+  <item name="battery.capacity">3100</item>
 </device>
