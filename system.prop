@@ -15,3 +15,11 @@ persist.radio.add_power_save=1
 
 # System property for SIM
 persist.radio.apm_sim_not_pwdn=1
+
+# hardware info
+ro.device.chipset=Samsung Exynos 4412 Quad
+ro.device.cpu=1.6 GHz quad-core Cortex-A9
+ro.device.gpu=ARM Mali-400MP
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.9 MP
+ro.device.screen_res=720x1280
