@@ -39,5 +39,8 @@ TARGET_KERNEL_CONFIG := cyanogenmod_t0lte_defconfig
 # assert
 TARGET_OTA_ASSERT_DEVICE := t0lte,t0ltexx,GT-N7105,t0ltedv,GT-N7105T,t0lteatt,SGH-I317,t0ltetmo,SGH-T889,t0ltecan,t0ltevl,SGH-I317M
 
+# GPS
+BOARD_GPS_SET_PRIVACY := true
+
 # inherit from the proprietary version
 -include vendor/samsung/t0lte/BoardConfigVendor.mk
