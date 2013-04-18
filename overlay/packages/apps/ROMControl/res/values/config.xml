@@ -3,6 +3,9 @@
     <!-- Whether or not to display the notification LED settings -->
     <bool name="has_notification_led">true</bool>
 
+    <!-- Whether device has led charging feature -->
+    <bool name="has_led_charging_feature">true</bool>
+
     <!-- Whether device has camera flash or torch capabilities -->
     <!-- bool name="has_torch">true</bool -->
 
