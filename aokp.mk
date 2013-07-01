@@ -1,22 +1,22 @@
-# Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# Inherit device configuration
+$(call inherit-product, device/samsung/t0lte/full_t0lte.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := t0lte
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+# Inherit GSM common stuff
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common product files.
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/t0lte/full_t0lte.mk)
+# boot animation
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/bootanimation/bootanimation_720_1280.zip:system/media/bootanimation-alt.zip
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := t0lte
-PRODUCT_NAME := cm_t0lte
+PRODUCT_NAME := aokp_t0lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N7105
 PRODUCT_MANUFACTURER := samsung
