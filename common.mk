@@ -66,7 +66,7 @@ PRODUCT_PACKAGES += \
     Stk \
     SamsungServiceMode
 
-$(call inherit-product-if-exists, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product-if-exists, vendor/du/configs/nfc_enhanced.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
